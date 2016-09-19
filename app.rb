@@ -11,7 +11,7 @@ end
 get "/contacts" do
   @contacts = Contact.all
   erb :index
-End
+end
 
 #calling db
 class Contact < ActiveRecord::Base
